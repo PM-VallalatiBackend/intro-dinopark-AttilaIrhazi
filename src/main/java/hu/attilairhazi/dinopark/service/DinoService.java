@@ -14,7 +14,7 @@ public class DinoService {
 
     private DinoRepository dinoRepository;
 
-    @Autowired
+    @Autowired // nem kötelező
     public DinoService(DinoRepository dinoRepository) {
         this.dinoRepository = dinoRepository;
     }

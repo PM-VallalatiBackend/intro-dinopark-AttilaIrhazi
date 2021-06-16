@@ -10,6 +10,15 @@ public class Visitor {
     public Visitor() {
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public Visitor setId(int id) {
+        this.id = id;
+        return this;
+    }
+
     public String getName() {
         return name;
     }

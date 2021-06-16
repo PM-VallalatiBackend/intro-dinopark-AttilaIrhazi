@@ -1,11 +1,9 @@
 package hu.attilairhazi.dinopark.dto;
 
-import hu.attilairhazi.dinopark.domain.DinoType;
-
 public class VisitorCreateCommand {
 
     private String name;
-    private DinoType favouriteDinoType;
+    private String favouriteDinoType;
 
     public VisitorCreateCommand() {
     }
@@ -19,11 +17,11 @@ public class VisitorCreateCommand {
         return this;
     }
 
-    public DinoType getFavouriteDinoType() {
+    public String getFavouriteDinoType() {
         return favouriteDinoType;
     }
 
-    public VisitorCreateCommand setFavouriteDinoType(DinoType favouriteDinoType) {
+    public VisitorCreateCommand setFavouriteDinoType(String favouriteDinoType) {
         this.favouriteDinoType = favouriteDinoType;
         return this;
     }
