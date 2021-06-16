@@ -1,4 +1,4 @@
-package dinopark.domain;
+package hu.attilairhazi.dinopark.domain;
 
 public enum DinoType {
 
